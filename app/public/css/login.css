@@ -1,0 +1,37 @@
+.title-login {
+    color: white;
+    padding: 0 30%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 44px;
+}
+
+.login-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+.login-form__input {
+    margin: 10px 0;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.login-form__button {
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 22px;
+    background: linear-gradient(140deg, darkblue 0%, #965CFF 50%, mediumvioletred 100%);
+}
+
+.login-form__message {
+    color: azure;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
